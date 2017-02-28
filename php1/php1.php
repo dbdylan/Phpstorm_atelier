@@ -8,8 +8,8 @@ $students = [
 ];
 
 
-foreach ($students as $prenoms=>$age)
+foreach ($students as $prenoms=>$age) {
     echo $prenoms." ". $age." ". "ans".'<br/>';
-
+}
 $moyenne = array_sum($students)/count($students);
     echo "La moyenne est de ".$moyenne;
